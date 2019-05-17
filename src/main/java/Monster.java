@@ -3,6 +3,8 @@ import org.sql2o.Connection;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class Monster {
     private String name;
@@ -22,6 +24,7 @@ public class Monster {
     public static final int MAX_PLAY_LEVEL = 12;
     public static final int MIN_ALL_LEVELS = 0;
 
+    private Timer timer;
 
     public Monster(String name, int personId) {
         this.name = name;
@@ -29,6 +32,7 @@ public class Monster {
         playLevel = MAX_PLAY_LEVEL / 2;
         sleepLevel = MAX_SLEEP_LEVEL / 2;
         foodLevel = MAX_FOOD_LEVEL / 2;
+        timer = new Timer();
     }
 
     public String getName(){
@@ -104,9 +108,11 @@ public class Monster {
     }
 
     public void depleteLevels(){
-        playLevel--;
-        foodLevel--;
-        sleepLevel--;
+        if (isAlive()) {
+            playLevel--;
+            foodLevel--;
+            sleepLevel--;
+        }
     }
 
     public void play(){
@@ -162,5 +168,19 @@ public class Monster {
 
     public Timestamp getLastPlayed(){
         return lastPlayed;
+    }
+
+    public void startTimer(){
+        Monster currentMonster = this;
+        TimerTask timerTask = new TimerTask(){
+            @Override
+            public void run() {
+                if (!currentMonster.isAlive()){
+                    cancel();
+                }
+                depleteLevels();
+            }
+        };
+        this.timer.schedule(timerTask, 0, 600);
     }
 }
