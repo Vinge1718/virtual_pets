@@ -103,14 +103,23 @@ public class Monster {
     }
 
     public void play(){
+        if (playLevel >= MAX_PLAY_LEVEL){
+            throw new UnsupportedOperationException("You cannot play with monster anymore!");
+        }
         playLevel++;
     }
 
     public void sleep(){
+        if (sleepLevel >= MAX_SLEEP_LEVEL){
+            throw new UnsupportedOperationException("You cannot make your monster sleep anymore!");
+        }
         sleepLevel++;
     }
 
     public void feed(){
+        if (foodLevel >= MAX_FOOD_LEVEL){
+            throw new UnsupportedOperationException("You cannot feed your monster anymore!");
+        }
         foodLevel++;
     }
 }
