@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Timer;
 import org.sql2o.*;
 
-public class FireMonster extends Monster {
+public class FireMonster extends Monster implements DatabaseManagement {
     private int fireLevel;
     public static final int MAX_FIRE_LEVEL = 10;
     public static final String DATABASE_TYPE = "fire";
