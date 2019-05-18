@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16480e12-830c-4c6f-b208-ccd63ccc84b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FireMonster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WaterMonster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FireMonsterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WaterMonsterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FireMonster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FireMonster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Monster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MonsterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MonsterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WaterMonster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WaterMonster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FireMonsterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FireMonsterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WaterMonsterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WaterMonsterTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -35,10 +35,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="80" column="49" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1838#1846#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Monster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+            <state relative-caret-position="225">
+              <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#992#993#0" expanded="true" />
@@ -81,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/FireMonsterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="118" column="91" selection-start-line="118" selection-start-column="91" selection-end-line="118" selection-end-column="91" />
+            <state relative-caret-position="130">
+              <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WaterMonsterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="118" column="95" selection-start-line="118" selection-start-column="95" selection-end-line="118" selection-end-column="95" />
+            <state relative-caret-position="199">
+              <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,37 +107,41 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="80" column="7" lean-forward="true" selection-start-line="70" selection-start-column="6" selection-end-line="80" selection-end-column="7" />
+              <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FireMonster.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1122#1123#0" expanded="true" />
-                <element signature="e#1154#1155#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FireMonster.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1122#1123#0" expanded="true" />
+                <element signature="e#1154#1155#0" expanded="true" />
+                <element signature="e#2216#2217#0" expanded="true" />
+                <element signature="e#2251#2252#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/WaterMonster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+            <state relative-caret-position="180">
+              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1133#1134#0" expanded="true" />
                 <element signature="e#1166#1167#0" expanded="true" />
+                <element signature="e#2429#2430#0" expanded="true" />
+                <element signature="e#2461#2462#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,15 +170,15 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/DB.java" />
         <option value="$PROJECT_DIR$/src/test/java/DatabaseRule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Person.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/MonsterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Monster.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FireMonsterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FireMonster.java" />
         <option value="$PROJECT_DIR$/src/test/java/PersonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FireMonsterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Person.java" />
         <option value="$PROJECT_DIR$/src/test/java/WaterMonsterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/WaterMonster.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FireMonster.java" />
       </list>
     </option>
   </component>
@@ -358,24 +363,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonTest - 2019.05.17 at 14h 53m 33s.xml">
-      <configuration name="PersonTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="MonsterTest - 2019.05.17 at 14h 53m 42s.xml">
-      <configuration name="MonsterTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="MonsterTest - 2019.05.17 at 17h 18m 45s.xml">
-      <configuration name="MonsterTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="MonsterTest - 2019.05.17 at 17h 25m 38s.xml">
-      <configuration name="MonsterTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="MonsterTest - 2019.05.17 at 17h 42m 11s.xml">
-      <configuration name="MonsterTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="MonsterTest - 2019.05.17 at 17h 54m 52s.xml">
-      <configuration name="MonsterTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="MonsterTest - 2019.05.17 at 20h 37m 09s.xml">
       <configuration name="MonsterTest" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -388,12 +375,64 @@
     <history-entry file="MonsterTest - 2019.05.18 at 00h 09m 52s.xml">
       <configuration name="MonsterTest" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="WaterMonsterTest - 2019.05.18 at 01h 35m 33s.xml">
+      <configuration name="WaterMonsterTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="FireMonsterTest - 2019.05.18 at 01h 35m 52s.xml">
+      <configuration name="FireMonsterTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="FireMonsterTest - 2019.05.18 at 12h 32m 38s.xml">
+      <configuration name="FireMonsterTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="WaterMonsterTest - 2019.05.18 at 12h 35m 05s.xml">
+      <configuration name="WaterMonsterTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="FireMonsterTest - 2019.05.18 at 12h 37m 09s.xml">
+      <configuration name="FireMonsterTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="FireMonsterTest - 2019.05.18 at 12h 39m 48s.xml">
+      <configuration name="FireMonsterTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25377643" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25377643" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="DB Browser" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Project Explorer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info id="Job Explorer" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924472" visible="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32872504" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007553" side_tool="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32872504" />
+      <window_info anchor="bottom" id="Console" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25377643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -411,7 +450,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32872504" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007553" side_tool="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32872504" />
       <window_info anchor="bottom" id="Console" order="11" />
@@ -425,7 +464,7 @@
       <window_info anchor="right" id="Gradle" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -453,16 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -482,8 +511,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Monster.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        <state relative-caret-position="225">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#992#993#0" expanded="true" />
@@ -512,42 +541,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FireMonsterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="118" column="91" selection-start-line="118" selection-start-column="91" selection-end-line="118" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FireMonster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-            <element signature="e#1154#1155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="80" column="7" lean-forward="true" selection-start-line="70" selection-start-column="6" selection-end-line="80" selection-end-column="7" />
+          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="80" column="49" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1838#1846#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WaterMonsterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="118" column="95" selection-start-line="118" selection-start-column="95" selection-end-line="118" selection-end-column="95" />
+        <state relative-caret-position="199">
+          <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FireMonsterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -556,12 +584,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WaterMonster.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1133#1134#0" expanded="true" />
             <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#2429#2430#0" expanded="true" />
+            <element signature="e#2461#2462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FireMonster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#2216#2217#0" expanded="true" />
+            <element signature="e#2251#2252#0" expanded="true" />
           </folding>
         </state>
       </provider>
